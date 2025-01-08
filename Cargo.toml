@@ -1,0 +1,8 @@
+[package]
+name = "schedule"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.24", features = ["derive"] }
+chrono = "0.4.39"
