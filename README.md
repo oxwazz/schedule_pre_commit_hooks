@@ -1,4 +1,4 @@
-# GitHub Contributions Widget
+# Schedule - pre-commit hooks
 
 [badge-workflow]: https://img.shields.io/github/actions/workflow/status/oxwazz/schedule_pre_commit_hooks/release.yml
 
@@ -145,7 +145,7 @@ repos:
 
 ## Credit
 
-📌 GitHub Contributions Widget is currently being developed and maintained
+📌 Schedule - pre-commit hooks is currently being developed and maintained
 by [Muhammad Rahmahalim](https://github.com/oxwazz).<br>
 Thank you!
 
