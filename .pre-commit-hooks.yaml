@@ -1,16 +1,8 @@
 - id: schedule
   name: schedule commit
   description: 'schedule your commit based on allowed dates.'
-  entry: schedule
+  entry: schedule_pre_commit_hooks
   language: rust
   stages:
     - post-commit
   always_run: true
-  args:
-    - --timezone=+0700
-    #          - --schedule=monday|15:00-16:00
-    #          - --schedule=wednesday|15:00-16:00
-    - --schedule=wednesday|08:00-16:00
-    - --schedule=monday|11:00-09:00,12:00-18:00
-#          - --schedule=tuesday|13:00-18:00,07:00-08:00,17:00-18:00
-#          - --schedule=tuesday|14:00-18:00,06:00-08:00,15:00-23:00

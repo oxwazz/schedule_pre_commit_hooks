@@ -250,7 +250,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "schedule"
+name = "schedule_pre_commit_hooks"
 version = "0.1.0"
 dependencies = [
  "chrono",

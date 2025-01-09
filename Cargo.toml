@@ -1,7 +1,13 @@
 [package]
-name = "schedule"
+name = "schedule_pre_commit_hooks"
 version = "0.1.0"
+description = "Schedule your commit based on allowed dates."
+repository = "https://github.com/oxwazz/schedule_pre_commit_hooks"
+license = "MIT"
+homepage = "https://github.com/oxwazz/schedule_pre_commit_hooks"
+authors = ["Muhammad Rahmahalim <muhammad.rahmahalim@gmail.com>"]
 edition = "2021"
+keywords = ["pre-commit", "pre-commit-hooks", "schedule"]
 
 [dependencies]
 clap = { version = "4.5.24", features = ["derive"] }
