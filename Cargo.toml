@@ -1,6 +1,6 @@
 [package]
 name = "schedule_pre_commit_hooks"
-version = "0.1.0"
+version = "0.1.1"
 description = "Schedule your commit based on allowed dates."
 repository = "https://github.com/oxwazz/schedule_pre_commit_hooks"
 license = "MIT"
